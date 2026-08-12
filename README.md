@@ -7,4 +7,8 @@ how long conversion takes and what the funnel is worth in the revenue.
 The dataset (user_events.csv) contains user-level event logs with the following fields:
 | Column | Description |
 |---|---|
-| 'event_id' | Unique identifier for each event |
+| event_id | Unique identifier for each event |
+| user_id | Unique identifier for each user |
+| event_type | stageof the funnel |
+| event_date | Timestamp of the event |
+
