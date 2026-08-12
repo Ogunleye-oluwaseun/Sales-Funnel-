@@ -4,7 +4,7 @@ This project analyzes user behavior through a five stage e-commerce sales funnel
 how long conversion takes and what the funnel is worth in the revenue.
 
 ## Dataset
-The dataset (user_events.csv) contains user-level event logs with the following fields:
+The dataset contains user-level event logs with the following fields:
 | Column | Description |
 |---|---|
 | event_id | Unique identifier for each event |
@@ -36,7 +36,13 @@ The dataset (user_events.csv) contains user-level event logs with the following 
 + BULK INSERT for data loading
 
 ## Key Findings
++ Only 16% of users who viewed a product went on to purchase, with the biggest drop-off occurring between the view and add to cart stage.
++ Average Order Value - $106.5
++ Revenue Per Visitor - $17.6
 
+## Files
++ sales_funnel.sql
++ user_events.csv
 
 
 
