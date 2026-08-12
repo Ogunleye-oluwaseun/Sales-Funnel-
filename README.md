@@ -23,3 +23,17 @@ The dataset (user_events.csv) contains user-level event logs with the following 
 + Purchase - User completes the transaction
 
 ## Analysis Performed
++ Funnel Stage Counts - distinct users reaching each stage
++ Stage-to-stage conversion rates — % of users moving from one stage to the next, plus overall view-to-purchase conversion
++ Funnel by traffic source — cart and purchase conversion rates broken out by acquisition channel, to identify the highest- and lowest-converting sources
++ Time-to-conversion analysis — average time (in minutes) between view → cart, cart → purchase, and total journey time, for users who converted
++ Revenue funnel analysis — total revenue, average order value, revenue per buyer, and revenue per visitor
+
+
+
+
+
+
+
+
+
