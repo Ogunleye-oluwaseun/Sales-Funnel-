@@ -16,4 +16,10 @@ The dataset (user_events.csv) contains user-level event logs with the following 
 | traffic_source| Acquisiton channel that brought the user in |
 
 ## Funnel Stages
-1. Page View - User visits a site
++ Page View - User visits a product/site
++ Add to Cart - User adds a product to their cart
++ Checkout Start - User begins checkout
++ Payment Info - User enters payment details
++ Purchase - User completes the transaction
+
+## Analysis Performed
