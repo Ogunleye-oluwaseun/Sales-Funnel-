@@ -9,6 +9,11 @@ The dataset (user_events.csv) contains user-level event logs with the following 
 |---|---|
 | event_id | Unique identifier for each event |
 | user_id | Unique identifier for each user |
-| event_type | stageof the funnel |
+| event_type | Stage of the funnel |
 | event_date | Timestamp of the event |
+| product_id | Product associated with the event |
+| amount| Transaction amount |
+| traffic_source| Acquisiton channel that brought the user in |
 
+## Funnel Stages
+1. Page View - User visits a site
