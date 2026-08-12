@@ -16,11 +16,11 @@ The dataset (user_events.csv) contains user-level event logs with the following 
 | traffic_source| Acquisiton channel that brought the user in |
 
 ## Funnel Stages
-+ Page View - User visits a product/site
-+ Add to Cart - User adds a product to their cart
-+ Checkout Start - User begins checkout
-+ Payment Info - User enters payment details
-+ Purchase - User completes the transaction
++ Page View - user visits a product/site
++ Add to Cart - user adds a product to their cart
++ Checkout Start - user begins checkout
++ Payment Info - user enters payment details
++ Purchase - user completes the transaction
 
 ## Analysis Performed
 + Funnel Stage Counts - distinct users reaching each stage
@@ -28,6 +28,15 @@ The dataset (user_events.csv) contains user-level event logs with the following 
 + Funnel by traffic source — cart and purchase conversion rates broken out by acquisition channel, to identify the highest- and lowest-converting sources
 + Time-to-conversion analysis — average time (in minutes) between view → cart, cart → purchase, and total journey time, for users who converted
 + Revenue funnel analysis — total revenue, average order value, revenue per buyer, and revenue per visitor
+
+## Tools and Techniques
++ SQL Server/SSMS
++ Common Table Expressions (CTEs)
++ Conditional Aggregation
++ BULK INSERT for data loading
+
+## Key Findings
+
 
 
 
